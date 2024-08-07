@@ -1,4 +1,4 @@
-# Network Security Engineer
+# Network Automation Engineer
 
 ### Education
 Telecom Engineering BSC
@@ -10,9 +10,9 @@ Telecom Engineering BSC
 
 ### Projects
 
-##### SNMPv2 Remidiaton
+##### Projects List
 
-| Property | Description|
+| Project | Overview|
 | -------- | ----------------------------------------------------------------|
-| _Target_ | Remove SNMPv2 config from large number of Devices on the network|
-| _Flow_ | The Script Send a SNMPv2 query to the router to check if it will respond or not and if it responds, It Access the device and check the SNMPv2 config then it enters config mode to delete the concerned config and last step if to verify that the device is not replying to SNMPv2 Queries..|
+| SNMPv2 Remediation | This project aims to Remove SNMPv2 config from large number of Devices on the network as it sends SNMPv2 Query from a Server to the Target device. IF the device responds It will access it and delete the needed config to disable SNMPv2 Capability then as a last it step it resend the SNMPv2 Query again to verify that the SNMPv2 is disabled on the device|
+
