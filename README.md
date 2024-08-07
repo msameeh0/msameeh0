@@ -11,7 +11,9 @@ Telecom Engineering BSC
 ### Projects
 
 | Project | Overview|
-| -------- | ----------------------------------------------------------------|
-| SNMPv2 Remediation | This project aims to Remove SNMPv2 config from large number of Devices on the network as it sends SNMPv2 Query from a Server to the Target device. IF the device responds It will access it and delete the needed config to disable SNMPv2 Capability then as a last it step it resend the SNMPv2 Query again to verify that the SNMPv2 is disabled on the device|
+| Project | Overview|
+|:-------- |:----------------------------------------------------------------|
+| Router IOS Upgrade | <ul><li>This project aims to make the IOS upgrade process much easier.</li> <li>It takes a router name as input then it access it to take the prechecks and save to a file.</li><li>Aftar that it checks if the New IOS imaged is loaded on the router.</li><li>If yes it will change the boot sequence to make the new image is the 1st image to be loaded and the old working image is the 2nd option.</li><li>Then it writes this config to the memory and verifying by checking the "show boot" command output.</li><li>Then it reloads the router and it keep pings it from a server to check when it will be up after the upgrade.</li><li>Once it is back up again after the upgrade it access the router again to gather the postchecks and save to a file</li></ul>|
 | Router Replacement |The aim of this project is to  produce the configuration file of a new router that is needed to replace an Old old one minimizing the time spent preparing such config and reducing human error to the minimum, also it ensures consistent network configurations across the organization|
+| SNMPv2 Remediation | This project aims to Remove SNMPv2 config from large number of Devices on the network as it sends SNMPv2 Query from a Server to the Target device. IF the device responds It will access it and delete the needed config to disable SNMPv2 Capability then as a last it step it resend the SNMPv2 Query again to verify that the SNMPv2 is disabled on the device|
 
