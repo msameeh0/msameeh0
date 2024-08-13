@@ -4,7 +4,7 @@
 Telecom Engineering BSC
 
 ### Experience
-- I have +8 years experince in Network Engineering.
+- I have +8 years experince in Network Engineering and Network Automation.
 - I used to do my tasks using Automation so I have been practicing network automation for about 8 years now.
 - Using Python Automation Tools/Libs like (Paramiko, Netmiko, NorNir and other Tools) to automate Tasks like ( Basic tshoot , Inventory Mgmt , Config Backup ).
 - Also Familiar with GUI Libraries to provide a smooth user experince for users using My Product.
